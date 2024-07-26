@@ -1,12 +1,9 @@
-//confirm
-// alert
-// success
-
-// let a = parseInt(prompt("enter a"))
-// let b = parseInt(prompt("enter b"))
-// confirm("did you want to sum")
-// let c = parseInt(a+b)
-// alert(c)
-
-
-//dom Documnet object method
+button.addEventListener("click",()=>{
+    if(kedar.style.backgroundColor == "yellow"){
+        kedar.style.backgroundColor ="white"
+        button.textContent = "TURN ON"
+    }else{
+        kedar.style.backgroundColor ="yellow";
+        button.textContent = "TURN OFF"
+    }
+})

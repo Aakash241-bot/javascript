@@ -1,0 +1,14 @@
+.button{
+    background-color: red;
+}
+.button:active{
+    transform: scale(1.2);
+}
+.kedar{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 15px 10px 5px black;
+}
